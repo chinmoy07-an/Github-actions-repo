@@ -1,4 +1,4 @@
-name: Build and Test - ${{ github.ref_name }}
+name: Build and Test
 
 on: push
 
@@ -9,6 +9,8 @@ jobs:
 
 
       steps:
+         - name: Debug GitHub Context
+           run: echo "${{ toJson(github) }}"
          - name: check put repo
            uses: actions/checkout@v4
          - run: echo "Hello world by git hub actions"
