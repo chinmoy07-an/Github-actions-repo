@@ -1,6 +1,6 @@
 name: Build and Test
 
-run-name: CI Branch - ${{ github.ref_name }} - Commit - ${{ github.event.head_commit.message }} by @${{ github.actor }}
+run-name: 🌿Branch- ${{ github.ref_name }} | 📝 Commit - ${{ github.event.head_commit.message }} | 👤 By - @${{ github.actor }}
 
 on: push
 
