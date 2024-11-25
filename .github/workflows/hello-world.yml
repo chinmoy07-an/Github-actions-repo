@@ -1,5 +1,7 @@
 name: Build and Test
 
+run-name: Running CI on ${{ github.ref_name }} by @${{ github.actor }}
+
 on: push
 
 jobs:
