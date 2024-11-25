@@ -1,4 +1,4 @@
-name: hello-world
+name: Build and Test - ${{ github.ref_name }}
 
 on: push
 
